@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "lib": ["ESNext"],
+    "module": "esnext",
+    "noImplicitAny": false,
+    "paths": {
+      "@assets": ["assets"],
+      "@assets/*": ["assets/*"],
+      "@components": ["components"],
+      "@components/*": ["components/*"],
+      "@context": ["context"],
+      "@context/*": ["context/*"],
+      "@features": ["features"],
+      "@features/*": ["features/*"],
+      "@hooks": ["hooks"],
+      "@hooks/*": ["hooks/*"],
+      "@navigation": ["navigation"],
+      "@navigation/*": ["navigation/*"],
+      "@store": ["store"],
+      "@theme": ["theme"],
+      "@theme/*": ["theme/*"],
+      "@utils": ["utils"],
+      "@utils/*": ["utils/*"]
+    },
+    "strict": true,
+    "types": ["jest", "node"],
+    "verbatimModuleSyntax": true
+  },
+  "extends": "expo/tsconfig.base",
+}
