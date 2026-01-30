@@ -34,6 +34,7 @@ export default function App(): React.JSX.Element {
   useTanStackQueryDevTools(queryClient)
   useNetworkActivityDevTools()
   useMMKVDevTools()
+  console.log('123123123')
   return (
     <QueryClientProvider client={queryClient}>
       <I18nProvider>
